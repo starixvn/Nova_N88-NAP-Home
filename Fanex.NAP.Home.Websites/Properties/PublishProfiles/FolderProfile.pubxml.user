@@ -1,0 +1,718 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\Deploy\NAP_HOME</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="App_Data/NAPHomeSPNames.xml">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Areas/Sites/Configurations/SiteThumbnails.local.xml">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Areas/Sites/Configurations/SiteThumbnails.prod.xml">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Areas/Sites/Configurations/SiteThumbnails.uat.xml">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Areas/Sites/Configurations/SiteThumbnails.xml">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Areas/Sites/Resources/UserSites/Thumbnails/acc-report.jpg">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Areas/Sites/Resources/UserSites/Thumbnails/admin.jpg">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Areas/Sites/Resources/UserSites/Thumbnails/cm.jpg">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Areas/Sites/Resources/UserSites/Thumbnails/crm.jpg">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Areas/Sites/Resources/UserSites/Thumbnails/default.jpg">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Areas/Sites/Resources/UserSites/Thumbnails/dw.jpg">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Areas/Sites/Resources/UserSites/Thumbnails/invoice.jpg">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Areas/Sites/Resources/UserSites/Thumbnails/live-charts.jpg">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Areas/Sites/Resources/UserSites/Thumbnails/msite.jpg">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Areas/Sites/Resources/UserSites/Thumbnails/settlement.jpg">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Areas/Sites/Resources/UserSites/Thumbnails/special-delete.jpg">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Areas/Sites/Resources/UserSites/Thumbnails/tgrs.jpg">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Areas/Sites/Views/UserSites/Sites.cshtml">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Areas/Sites/Views/Web.config">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Areas/User/Resources/Login/Fonts/Lucida_Sans.ttf">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Areas/User/Resources/Login/Images/bg.png">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Areas/User/Resources/Login/Images/down.png">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Areas/User/Resources/Login/Images/lock.png">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Areas/User/Resources/Login/Images/password.png">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Areas/User/Resources/Login/Images/UnderMaintenance.gif">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Areas/User/Resources/Login/Images/username.png">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Areas/User/Resources/Login/Images/welcome.png">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Areas/User/Resources/Login/login.js">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Areas/User/Resources/Login/login.less">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Areas/User/Resources/Login/recheckIn.js">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Areas/User/Resources/UserInfo/change-password.js">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Areas/User/Views/Common/Offline.cshtml">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Areas/User/Views/Error/AccessDenied.cshtml">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Areas/User/Views/Error/Index.cshtml">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Areas/User/Views/Error/NotFound.cshtml">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Areas/User/Views/Login/Index.cshtml">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Areas/User/Views/UserInfo/ChangePassword.cshtml">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Areas/User/Views/UserInfo/UserProfile.cshtml">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Areas/User/Views/Web.config">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.pdb">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="bin/BundleTransformer.Core.dll">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="bin/BundleTransformer.Less.dll">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="bin/CasinoLibrary.dll">
+      <publishTime>01/19/2017 15:56:44</publishTime>
+    </File>
+    <File Include="bin/CasinoSetting.dll">
+      <publishTime>01/19/2017 15:56:44</publishTime>
+    </File>
+    <File Include="bin/CasinoUtility.dll">
+      <publishTime>01/19/2017 15:56:44</publishTime>
+    </File>
+    <File Include="bin/Couchbase.dll">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="bin/dotless.Core.dll">
+      <publishTime>02/26/2020 18:16:44</publishTime>
+    </File>
+    <File Include="bin/EasyNetQ.dll">
+      <publishTime>04/24/2018 16:15:26</publishTime>
+    </File>
+    <File Include="bin/Enyim.Caching.dll">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="bin/Fanex.Caching.dll">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="bin/Fanex.Common.dll">
+      <publishTime>04/25/2016 15:14:26</publishTime>
+    </File>
+    <File Include="bin/Fanex.Data.dll">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="bin/Fanex.Logging.dll">
+      <publishTime>03/28/2019 07:27:52</publishTime>
+    </File>
+    <File Include="bin/Fanex.Logging.Extensions.Database.V62.dll">
+      <publishTime>10/16/2017 11:19:08</publishTime>
+    </File>
+    <File Include="bin/Fanex.Logging.Extensions.dll">
+      <publishTime>10/16/2017 11:08:18</publishTime>
+    </File>
+    <File Include="bin/Fanex.Logging.Extensions.Web.dll">
+      <publishTime>05/23/2018 10:25:22</publishTime>
+    </File>
+    <File Include="bin/Fanex.Logging.RabbitMQ.dll">
+      <publishTime>12/10/2018 06:40:12</publishTime>
+    </File>
+    <File Include="bin/Fanex.Logging.Sentry.RavenClient.dll">
+      <publishTime>03/29/2019 03:28:08</publishTime>
+    </File>
+    <File Include="bin/Fanex.MailDeliver.MailClient.dll">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="bin/Fanex.NAP.Core.Client.dll">
+      <publishTime>09/11/2019 02:31:08</publishTime>
+    </File>
+    <File Include="bin/Fanex.NAP.Framework.dll">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="bin/Fanex.NAP.Home.Core.dll">
+      <publishTime>02/27/2020 08:48:10</publishTime>
+    </File>
+    <File Include="bin/Fanex.NAP.Home.Core.dll.config">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="bin/Fanex.NAP.Home.Core.pdb">
+      <publishTime>02/27/2020 08:48:10</publishTime>
+    </File>
+    <File Include="bin/Fanex.NAP.Home.Sites.dll">
+      <publishTime>02/27/2020 08:48:12</publishTime>
+    </File>
+    <File Include="bin/Fanex.NAP.Home.Sites.dll.config">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="bin/Fanex.NAP.Home.Sites.pdb">
+      <publishTime>02/27/2020 08:48:12</publishTime>
+    </File>
+    <File Include="bin/Fanex.NAP.Home.User.dll">
+      <publishTime>02/27/2020 08:48:11</publishTime>
+    </File>
+    <File Include="bin/Fanex.NAP.Home.User.dll.config">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="bin/Fanex.NAP.Home.User.pdb">
+      <publishTime>02/27/2020 08:48:11</publishTime>
+    </File>
+    <File Include="bin/Fanex.NAP.Home.Websites.dll">
+      <publishTime>02/27/2020 08:48:14</publishTime>
+    </File>
+    <File Include="bin/Fanex.NAP.Home.Websites.pdb">
+      <publishTime>02/27/2020 08:48:14</publishTime>
+    </File>
+    <File Include="bin/HandHistoryLibrary.dll">
+      <publishTime>01/19/2017 15:56:44</publishTime>
+    </File>
+    <File Include="bin/IBCFile.dll">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="bin/JavaScriptEngineSwitcher.Core.dll">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="bin/JavaScriptEngineSwitcher.Msie.dll">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CSharp.dll">
+      <publishTime>11/05/2015 20:36:48</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Diagnostics.Tracing.EventSource.dll">
+      <publishTime>12/01/2015 14:31:46</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.Caching.dll">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.Common.dll">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.Data.dll">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.Logging.dll">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.ServiceLocation.dll">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.Unity.dll">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.Unity.Interception.dll">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>02/26/2020 18:16:44</publishTime>
+    </File>
+    <File Include="bin/MsieJavaScriptEngine.dll">
+      <publishTime>02/26/2020 18:16:44</publishTime>
+    </File>
+    <File Include="bin/MvcPager.dll">
+      <publishTime>02/26/2020 18:16:44</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>04/02/2017 17:46:32</publishTime>
+    </File>
+    <File Include="bin/ONEbook.UM.dll">
+      <publishTime>05/19/2016 16:00:48</publishTime>
+    </File>
+    <File Include="bin/packages.config">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="bin/RabbitMQ.Client.dll">
+      <publishTime>07/21/2017 13:24:50</publishTime>
+    </File>
+    <File Include="bin/RestSharp.dll">
+      <publishTime>08/26/2015 16:33:34</publishTime>
+    </File>
+    <File Include="bin/ru-ru/BundleTransformer.Core.resources.dll">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="bin/ru-ru/BundleTransformer.Less.resources.dll">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="bin/ru-ru/JavaScriptEngineSwitcher.Core.resources.dll">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="bin/ru-ru/MsieJavaScriptEngine.resources.dll">
+      <publishTime>02/26/2020 18:16:44</publishTime>
+    </File>
+    <File Include="bin/SharpRaven.dll">
+      <publishTime>05/11/2018 09:53:08</publishTime>
+    </File>
+    <File Include="bin/SPSRemoting.dll">
+      <publishTime>02/26/2020 18:16:44</publishTime>
+    </File>
+    <File Include="bin/System.Configuration.dll">
+      <publishTime>11/05/2015 20:36:48</publishTime>
+    </File>
+    <File Include="bin/System.Data.dll">
+      <publishTime>11/05/2015 20:36:48</publishTime>
+    </File>
+    <File Include="bin/System.dll">
+      <publishTime>11/05/2015 20:36:48</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>08/08/2012 17:58:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.dll">
+      <publishTime>11/05/2015 20:36:48</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>02/26/2020 18:16:44</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>08/08/2012 17:58:22</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>09/25/2014 17:11:36</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>02/26/2020 18:16:44</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="bin/System.Web.Routing.dll">
+      <publishTime>11/05/2015 20:36:48</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>02/26/2020 18:16:44</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>02/26/2020 18:16:44</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>02/26/2020 18:16:44</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>02/26/2020 18:16:44</publishTime>
+    </File>
+    <File Include="Content/Areas/Sites/Configurations/SiteThumbnails.local.xml">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Content/Areas/Sites/Configurations/SiteThumbnails.prod.xml">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Content/Areas/Sites/Configurations/SiteThumbnails.uat.xml">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Content/Areas/Sites/Configurations/SiteThumbnails.xml">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Content/Areas/Sites/Resources/UserSites/Thumbnails/acc-report.jpg">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Content/Areas/Sites/Resources/UserSites/Thumbnails/admin.jpg">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Content/Areas/Sites/Resources/UserSites/Thumbnails/cm.jpg">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Content/Areas/Sites/Resources/UserSites/Thumbnails/crm.jpg">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Content/Areas/Sites/Resources/UserSites/Thumbnails/default.jpg">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Content/Areas/Sites/Resources/UserSites/Thumbnails/dw.jpg">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Content/Areas/Sites/Resources/UserSites/Thumbnails/invoice.jpg">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Content/Areas/Sites/Resources/UserSites/Thumbnails/live-charts.jpg">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Content/Areas/Sites/Resources/UserSites/Thumbnails/msite.jpg">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Content/Areas/Sites/Resources/UserSites/Thumbnails/settlement.jpg">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Content/Areas/Sites/Resources/UserSites/Thumbnails/special-delete.jpg">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Content/Areas/Sites/Resources/UserSites/Thumbnails/tgrs.jpg">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Content/Areas/Sites/Views/UserSites/Sites.cshtml">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Content/Areas/Sites/Views/Web.config">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Content/Areas/User/Resources/Login/Images/bg.png">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Content/Areas/User/Resources/Login/Images/down.png">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Content/Areas/User/Resources/Login/Images/lock.png">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Content/Areas/User/Resources/Login/Images/password.png">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Content/Areas/User/Resources/Login/Images/UnderMaintenance.gif">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Content/Areas/User/Resources/Login/Images/username.png">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Content/Areas/User/Resources/Login/Images/welcome.png">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Content/Areas/User/Resources/Login/login.js">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Content/Areas/User/Resources/Login/recheckIn.js">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Content/Areas/User/Resources/UserInfo/change-password.js">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Content/Areas/User/Views/Common/Offline.cshtml">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Content/Areas/User/Views/Error/AccessDenied.cshtml">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Content/Areas/User/Views/Error/Index.cshtml">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Content/Areas/User/Views/Error/NotFound.cshtml">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Content/Areas/User/Views/Login/Index.cshtml">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Content/Areas/User/Views/UserInfo/ChangePassword.cshtml">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Content/Areas/User/Views/UserInfo/UserProfile.cshtml">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Content/Areas/User/Views/Web.config">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Content/Bootstrap/CSS/bootstrap-theme.css">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Content/Bootstrap/CSS/bootstrap-theme.css.map">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Content/Bootstrap/CSS/bootstrap.css">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Content/Bootstrap/CSS/bootstrap.css.map">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Content/Bootstrap/Fonts/glyphicons-halflings-regular.eot">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Content/Bootstrap/Fonts/glyphicons-halflings-regular.svg">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Content/Bootstrap/Fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Content/Bootstrap/Fonts/glyphicons-halflings-regular.woff">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Content/MessageBox/Images/alert.png">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Content/MessageBox/Images/btn-close.png">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Content/MessageBox/Images/confirm.png">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Content/MessageBox/Images/error.png">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Content/MessageBox/Images/info.png">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Content/MessageBox/Images/question.png">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Content/MessageBox/msgbox-0.0.1.css">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Content/Theme/Font/Roboto/LICENSE.txt">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Content/Theme/Font/Roboto/Roboto-Bold.eot">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Content/Theme/Font/Roboto/Roboto-Bold.ttf">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Content/Theme/Font/Roboto/Roboto-BoldItalic.ttf">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Content/Theme/Font/Roboto/Roboto-Italic.ttf">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Content/Theme/Font/Roboto/Roboto-Medium.ttf">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Content/Theme/Font/Roboto/Roboto-Regular.eot">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Content/Theme/Font/Roboto/Roboto-Regular.ttf">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Content/Theme/Images/arrow-down.png">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Content/Theme/Images/favicon.ico">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Content/Theme/Images/loading.gif">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Content/Theme/Images/pattern.jpg">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Content/Theme/Images/search.png">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Content/Theme/Images/shadow.png">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Content/Theme/Images/sprite.png">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Content/Theme/Images/thumbnail_bg.png">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Content/Theme/Images/user.png">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Content/Theme/mixins.less">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Content/Theme/style.less">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Content/Theme/variables.less">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Fanex.NAP.Home.Websites.ruleset">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Scripts/Bootstrap/bootstrap-tooltip-extension.js">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Scripts/Bootstrap/bootstrap.js">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Scripts/common.js">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJs/CryptoJS.js">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Scripts/HeadJs/head.min.js">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Scripts/HeadJs/head.min.js.map">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Scripts/jQuery/jquery-1.11.1.min.js">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Scripts/jQuery/jquery-1.8.2.min.js">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Scripts/jQuery/jquery.blockUI.2.66.min.js">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Scripts/jQuery/jquery.nicescroll.min.js">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Scripts/jQuery/jquery.validate.min.js">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Scripts/jQuery/jquery.validate.unobtrusive.min.js">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Scripts/MessageBox/msgbox-0.0.1.js">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Scripts/Modernizr/modernizr.30715.min.js">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Scripts/Others/namespace.js">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Scripts/raven/raven.js">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Scripts/raven/raven.min.js">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Scripts/Resources/viewLang.js">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Scripts/RespondJs/respond.min.js">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Scripts/Underscore/underscore-min.js">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>02/27/2020 08:48:14</publishTime>
+    </File>
+    <File Include="Web.ConnectionStrings.config">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Web.ConnectionStrings.local.config">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Web.ConnectionStrings.local2.config">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Web.ConnectionStrings.master.config">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Web.ConnectionStrings.mnl.config">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Web.ConnectionStrings.pro.config">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Web.ConnectionStrings.sit.config">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Web.ConnectionStrings.uat.config">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Web.local.config">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Web.local2.config">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Web.mnl.config">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Web.mnl.Debug.config">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Web.mnl.Release.config">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Web.pro.config">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Web.pro.Debug.config">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Web.pro.Release.config">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Web.sit.config">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Web.sit.Debug.config">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Web.sit.Release.config">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Web.uat.config">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Web.uat.Debug.config">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+    <File Include="Web.uat.Release.config">
+      <publishTime>02/26/2020 18:16:43</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
