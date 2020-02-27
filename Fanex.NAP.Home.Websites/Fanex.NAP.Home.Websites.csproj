@@ -429,7 +429,6 @@
     <Content Include="Web.pro.Release.config">
       <DependentUpon>Web.pro.config</DependentUpon>
     </Content>
-    <Content Include="Web.ConnectionStrings.master.config" />
     <Content Include="Web.ConnectionStrings.local.config" />
     <Content Include="Web.ConnectionStrings.uat.config" />
     <Content Include="Web.ConnectionStrings.mnl.config" />
@@ -475,12 +474,13 @@
       <LastGenOutput>viewLang.js</LastGenOutput>
     </None>
     <None Include="Scripts\Underscore\underscore-min.map" />
-    <Content Include="Web.local2.config">
+    <Content Include="Web.n88.config">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="Web.local.config">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="Web.ConnectionStrings.n88.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Fanex.NAP.Home.Core\Fanex.NAP.Home.Core.csproj">
